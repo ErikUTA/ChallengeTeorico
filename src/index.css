@@ -11,3 +11,92 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home-content {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./assets/fondo3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.card-info {  
+  height: 100%;
+}
+
+.text-card {
+  text-align: justify;
+}
+
+.text-card-response {
+  height: 120px;
+  overflow: auto;
+  background-color: darkslategrey;
+  border-radius: 15px;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+}
+
+.text-card-response::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.text-card-response::-webkit-scrollbar:vertical {
+  width:7px;    
+}
+
+.text-card-response::-webkit-scrollbar-button:increment,.text-card-response::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.text-card-response::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.text-card-response::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;  
+  /* border: 2px solid #f1f2f3; */
+}
+
+.text-card-response::-webkit-scrollbar-track {
+  border-radius: 10px;  
+  margin: 10px;
+}
+.offcanvas-content::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.offcanvas-content::-webkit-scrollbar:vertical {
+  width:7px;    
+}
+
+.offcanvas-content::-webkit-scrollbar-button:increment,.text-card-response::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.offcanvas-content::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.offcanvas-content::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;  
+  /* border: 2px solid #f1f2f3; */
+}
+
+.offcanvas-content::-webkit-scrollbar-track {
+  border-radius: 10px;  
+  margin: 10px;
+}
